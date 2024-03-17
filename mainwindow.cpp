@@ -1,13 +1,27 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <string>
-#include <QDebug>
+#include <QFontDatabase>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+
+    QString lightFont = "assets/fonts/Inter-Light.ttf";
+    QString semiboldFont = "assets/fonts/Inter-SemiBold.ttf";
+
+
+    int buttonFont = QFontDatabase::addApplicationFont(semiboldFont);
+    QString SetButtonFont = QFontDatabase::applicationFontFamilies(buttonFont).at(0);
+    ui->pushButton_negative->setFont(QFont(SetButtonFont));
+    ui->pushButton_percent->setFont(QFont(SetButtonFont));
+
+    int labelFont = QFontDatabase::addApplicationFont(lightFont);
+    QString SetLabelFont = QFontDatabase::applicationFontFamilies(labelFont).at(0);
+    ui->label->setFont(QFont(SetLabelFont));
 
     connect(ui->pushButton_0,SIGNAL(released()), this, SLOT(buttons_pressed()));
     connect(ui->pushButton_1,SIGNAL(released()), this, SLOT(buttons_pressed()));
@@ -47,6 +61,7 @@ void clearField(QLabel *labelText){
 }
 
 void labelUpdate(QLabel *labelText, QString symbol){
+
     if (clearLabel == true){
         clearField(labelText);
         clearLabel = false;

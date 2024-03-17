@@ -664,7 +664,7 @@ QPushButton:pressed{
 	max-height: 68px;
 	background-color:rgb(97, 93, 105);
 	color:rgb(231, 227, 235);
-	font-size:24px;
+	font-size:26px;
 }
 QPushButton:pressed{
 	background-color:rgb(116, 100, 104);
@@ -723,7 +723,7 @@ QPushButton:pressed{
 	max-height: 68px;
 	background-color:rgb(97, 93, 105);
 	color:rgb(231, 227, 235);
-	font-size:24px;
+	font-size:26px;
 }
 QPushButton:pressed{
 	background-color:rgb(116, 100, 104);
@@ -888,7 +888,7 @@ QPushButton:pressed{
     <property name="font">
      <font>
       <family>Inter Medium</family>
-      <pointsize>-1</pointsize>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="cursor">
@@ -903,7 +903,6 @@ QPushButton:pressed{
 	max-height: 68px;
 	background-color:rgb(97, 93, 105);
 	color:rgb(231, 227, 235);
-	font-size:24px;
 }
 QPushButton:pressed{
 	background-color:rgb(108, 105, 115);
@@ -1118,7 +1117,8 @@ border:0;
 qproperty-alignment: 'AlignVCenter | AlignRight';
 font-size:54px;
 padding-right:1px;
-color: qlineargradient(x1:20, y1:0, x2:100, y2:0, stop:0 rgba(0,0,0,0), stop:1 #ffffff);</string>
+color: qlineargradient(x1:20, y1:0, x2:100, y2:0, stop:0 rgba(0,0,0,0), stop:1 #ffffff);
+</string>
     </property>
     <property name="text">
      <string>0</string>
