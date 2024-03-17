@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>323</width>
+    <height>434</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>323</width>
+    <height>434</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>323</width>
+    <height>434</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:qlineargradient(spread:pad, x1:0.511658, y1:1, x2:0.512, y2:0, stop:0 rgba(107, 84, 109, 255), stop:1 rgba(75, 72, 82, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <widget class="QPushButton" name="pushButton_point">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>162</x>
+      <y>366</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(123, 119, 131);
+	color:rgb(250, 241, 250);
+	font-size:20pt;
+}
+QPushButton:pressed{
+	background-color:rgb(176, 157, 156);
+}</string>
+    </property>
+    <property name="text">
+     <string>.</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>159</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(123, 119, 131);
+	color:rgb(250, 241, 250);
+	font-size:20pt;
+}
+QPushButton:pressed{
+	background-color:rgb(176, 157, 156);
+}</string>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>228</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(123, 119, 131);
+	color:rgb(250, 241, 250);
+	font-size:20pt;
+}
+QPushButton:pressed{
+	background-color:rgb(176, 157, 156);
+}</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>162</x>
+      <y>159</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(123, 119, 131);
+	color:rgb(250, 241, 250);
+	font-size:20pt;
+}
+QPushButton:pressed{
+	background-color:rgb(176, 157, 156);
+}</string>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_division">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>243</x>
+      <y>90</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(243, 158, 67);
+	color:rgb(255, 241, 207);
+	font-size:32px;
+}
+QPushButton:pressed{
+	background-color:rgb(198, 115, 16);
+}</string>
+    </property>
+    <property name="text">
+     <string>÷</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_minus">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>243</x>
+      <y>228</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(243, 158, 67);
+	color:rgb(255, 241, 207);
+	font-size:32px;
+}
+QPushButton:pressed{
+	background-color:rgb(198, 115, 16);
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>81</x>
+      <y>159</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(123, 119, 131);
+	color:rgb(250, 241, 250);
+	font-size:20pt;
+}
+QPushButton:pressed{
+	background-color:rgb(176, 157, 156);
+}</string>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>162</x>
+      <y>297</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(123, 119, 131);
+	color:rgb(250, 241, 250);
+	font-size:20pt;
+}
+QPushButton:pressed{
+	background-color:rgb(176, 157, 156);
+}</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_equals">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>243</x>
+      <y>366</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(243, 158, 67);
+	color:rgb(255, 241, 207);
+	font-size:32px;
+}
+QPushButton:pressed{
+	background-color:rgb(198, 115, 16);
+}</string>
+    </property>
+    <property name="text">
+     <string>=</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_1">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>297</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(123, 119, 131);
+	color:rgb(250, 241, 250);
+	font-size:20pt;
+}
+QPushButton:pressed{
+	background-color:rgb(176, 157, 156);
+}</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_negative">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>81</x>
+      <y>90</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter SemiBold</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(97, 93, 105);
+	color:rgb(231, 227, 235);
+	font-size:24px;
+}
+QPushButton:pressed{
+	background-color:rgb(116, 100, 104);
+}</string>
+    </property>
+    <property name="text">
+     <string>⁺∕-</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_percent">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>162</x>
+      <y>90</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter SemiBold</family>
+      <pointsize>-1</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(97, 93, 105);
+	color:rgb(231, 227, 235);
+	font-size:24px;
+}
+QPushButton:pressed{
+	background-color:rgb(116, 100, 104);
+}</string>
+    </property>
+    <property name="text">
+     <string>%</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_0">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>366</y>
+      <width>161</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>161</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>161</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 161px;
+	min-height: 68px;
+	max-width: 161px;
+	max-height: 68px;
+	background-color:rgb(123, 119, 131);
+	color:rgb(250, 241, 250);
+	font-size:20pt;
+}
+QPushButton:pressed{
+	background-color:rgb(176, 157, 156);
+}</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_multiply">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>243</x>
+      <y>159</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(243, 158, 67);
+	color:rgb(255, 241, 207);
+	font-size:32px;
+}
+QPushButton:pressed{
+	background-color:rgb(198, 115, 16);
+}</string>
+    </property>
+    <property name="text">
+     <string>×</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_clear">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(97, 93, 105);
+	color:rgb(231, 227, 235);
+	font-size:24px;
+}
+QPushButton:pressed{
+	background-color:rgb(108, 105, 115);
+}</string>
+    </property>
+    <property name="text">
+     <string>AC</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_plus">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>243</x>
+      <y>297</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(243, 158, 67);
+	color:rgb(255, 241, 207);
+	font-size:32px;
+}
+QPushButton:pressed{
+	background-color:rgb(198, 115, 16);
+}</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>81</x>
+      <y>228</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(123, 119, 131);
+	color:rgb(250, 241, 250);
+	font-size:20pt;
+}
+QPushButton:pressed{
+	background-color:rgb(176, 157, 156);
+}</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>162</x>
+      <y>228</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(123, 119, 131);
+	color:rgb(250, 241, 250);
+	font-size:20pt;
+}
+QPushButton:pressed{
+	background-color:rgb(176, 157, 156);
+}</string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>323</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Light</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.993, cy:1, radius:2, fx:0, fy:0, stop:0.00153846 rgba(74, 77, 90, 255), stop:1 rgba(65, 58, 67, 255));
+color:white;
+border:0;
+qproperty-alignment: 'AlignVCenter | AlignRight';
+font-size:54px;
+padding-right:1px;
+color: qlineargradient(x1:20, y1:0, x2:100, y2:0, stop:0 rgba(0,0,0,0), stop:1 #ffffff);</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>81</x>
+      <y>297</y>
+      <width>80</width>
+      <height>68</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>80</width>
+      <height>68</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter Medium</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border:0;
+	min-width: 80px;
+	min-height: 68px;
+	max-width: 80px;
+	max-height: 68px;
+	background-color:rgb(123, 119, 131);
+	color:rgb(250, 241, 250);
+	font-size:20pt;
+}
+QPushButton:pressed{
+	background-color:rgb(176, 157, 156);
+}</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
